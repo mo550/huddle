@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Start Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 55px;
+  font-family: "Poppins", sans-serif;
+}
+
+header img {max-width: 100%;}
+
+header button {
+  width: 100px;
+  color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 20px;
+  background: #fff;
+  padding: 8px;
+}
+
+header button:hover {
+  color: hsl(321, 100%, 78%);
+  border: 1px solid hsl(321, 100%, 78%);
+}
+/* End Header */
+
+/* Start Community & Community1 */
+
+.community,
+.community1 {
+  text-align: center;
+  padding: 0 30px;
+  flex-direction: column;
+}
+.community h1,
+.community1 h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.community p {
+  text-align: center;
+  font-size: 14px;
+  padding: 0 25%;
+  margin-bottom: 25px;
+}
+.community button,
+.community1 button {
+  width: 250px;
+  color: #fff;
+  background: hsl(322, 100%, 66%);
+  border-radius: 30px;
+  padding: 15px;
+  font-weight: bold;
+  border: none;
+}
+
+.community button:hover,
+.community1 button:hover {
+  background: hsl(321, 100%, 78%);
+}
+
+/* End Community & Community1*/
+
+/* Strat Mockup */
+
+.mockup {
+  margin-top: 70px;
+  text-align: center;
+  padding: 0 30px;
+}
+
+/* End Mockup */
+
+/* Start Progress */
+
+.progress {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.progress h1 {
+  font-size: 60px;
+}
+
+.progress p {
+  color: rgb(110, 110, 110);
+  text-align: center;
+}
+
+/* End Progress */
+
+/* Start Grow & Users*/
+
+.grow,
+.user {
+  margin-top: 100px;
+}
+
+.user {
+  margin-bottom: 120px;
+}
+
+.grow-info {
+  position: relative;
+  background: hsl(207, 100%, 98%);
+  padding: 0px 90px;
+}
+
+.grow-info h1 {
+  font-size: 30px;
+}
+.grow-info p {
+  font: 15px;
+  margin: 20px 0;
+  padding-right: 22%;
+}
+
+/* End Grow & Users*/
+
+/* Start Conversition */
+
+.conversation {
+  padding: 0px 90px;
+  margin-top: 150px;
+}
+
+.conversation div {
+  margin-left: 100px;
+}
+
+.conversation img {
+  max-width: 50%;
+}
+
+.conversation h1 {
+  font-size: 30px;
+}
+
+.conversation p {
+  margin: 20px 0;
+}
+
+/* End Conversition */
+
+/* Start Footer */
+
+footer {
+  margin-top: 170px;
+}
+
+footer main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+  background: hsl(192, 100%, 9%);
+  padding: 70px;
+}
+
+footer main p {
+  font-size: 14px;
+  padding: 20px 35% 20px 0;
+}
+
+footer main div {
+  margin: 20px 0;
+}
+
+footer main img {
+  margin-right: 20px;
+}
+
+footer span {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+footer main a i {
+  color: #fff;
+  font-size: 25px;
+  margin-right: 15px;
+  margin-top: 50px;
+}
+
+footer main a i:hover {
+  color: rgb(0, 221, 214);
+}
+
+form input {
+  width: 280px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 25px;
+  outline: none;
+  border: none;
+}
+
+form button {
+  width: 180px;
+  color: #fff;
+  background: hsl(322, 100%, 66%);
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+}
+
+form button:hover {
+  background: hsl(321, 100%, 78%);
+}
+
+/* End Footer */
+
+img {
+  max-width: 100%;
+}
+
+img[alt="curve"] {
+  display: block;
+  min-width: 100%;
+}
+
+/* Strat FrameWork */
+.button-reset {
+  transition: 0.3s;
+  outline: none;
+  cursor: pointer;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* End FrameWork */
+
+/* Start Media */
+
+@media (max-width: 374px) {
+
+  header {padding: 20px 25px}
+  header img {max-width: 50%}
+  header button {
+    width: 80px; 
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .community h1,
+  .community1 h1 {
+  font-size: 25px;
+  margin-top: 50px;
+  }
+  .community p {font-size: 15px; padding: 0}
+  .community button {margin-top: 25px}
+
+  .progress {
+    text-align: center;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-direction: column;
+  }
+  .progress img {max-width: 20%; margin-left: -140px}
+  .progress div {margin-bottom: 70px}
+
+  .grow-info {
+    padding: 0 40px;
+    flex-direction: column-reverse;
+  }
+  .conversation {
+    padding: 0 40px;
+    flex-direction: column;
+  }
+  .conversation img {max-width: 100%;}
+  .conversation div {margin-left: 0;}
+  .grow-info h1, .conversation h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .grow-info p, .conversation p {
+    font-size: 16px;
+    text-align: center;
+    padding-right: 0;
+  }
+  footer img {max-width: 100%}
+  footer main {
+    padding: 0 30px;
+    flex-direction: column-reverse
+  }
+  footer form div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer input {
+    font-size: 20px;
+    padding: 15px;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  footer button {
+    align-self: flex-end;
+    width: 150px; 
+    margin-top: 15px;
+  }
+  footer main p {padding: 20px 1% 20px 0}
+  footer section {margin-top: 30px}
+
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+
+  header {padding: 30px 35px}
+  header img {max-width: 50%}
+  header button {
+    width: 80px; 
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .community h1,
+  .community1 h1 {
+  font-size: 25px;
+  margin-top: 50px;
+  }
+  .community p {font-size: 15px; padding: 0}
+  .community button {margin-top: 25px}
+
+  .progress {
+    text-align: center;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-direction: column;
+  }
+  .progress img {max-width: 20%; margin-left: -140px}
+  .progress div {margin-bottom: 70px}
+
+  .grow-info {
+    padding: 0 40px;
+    flex-direction: column-reverse;
+  }
+  .conversation {
+    padding: 0 40px;
+    flex-direction: column;
+  }
+  .conversation img {max-width: 100%;}
+  .conversation div {margin-left: 0;}
+  .grow-info h1, .conversation h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .grow-info p, .conversation p {
+    font-size: 16px;
+    text-align: center;
+    padding-right: 0;
+  }
+  footer img {max-width: 100%}
+  footer main {
+    padding: 0 30px;
+    flex-direction: column-reverse
+  }
+  footer form div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer input {
+    font-size: 20px;
+    padding: 15px;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  footer button {
+    align-self: flex-end;
+    width: 150px; 
+    margin-top: 15px;
+  }
+  footer main p {padding: 20px 1% 20px 0}
+  footer section {margin-top: 30px}
+
+}
+
+/* End Media */
